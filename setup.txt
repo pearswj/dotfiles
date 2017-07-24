@@ -1,0 +1,56 @@
+#######
+# GIT #
+#######
+
+brew install git git-lfs hub
+
+# https://help.github.com/articles/caching-your-github-password-in-git/
+git config --global credential.helper osxkeychain
+
+git lfs install
+
+git config --global core.precomposeunicode true
+
+git config --global pager.log "diff-highlight | less"
+git config --global pager.show "diff-highlight | less"
+git config --global pager.diff "diff-highlight | less"
+git config --global interactive.diffFilter "diff-highlight"
+
+git config --global core.excludesfile '~/.gitignore_global'
+
+git config --global hub.protocol https
+
+#######
+# DEV #
+#######
+
+# ngrok
+brew cask install ngrok
+
+# travis
+gem install travis
+
+# heroku
+brew install heroku
+
+############
+# MONO MDK #
+############
+
+brew cask install mono
+ln -s $(which mono) /usr/local/bin/
+brew install nuget --ignore-dependencies
+# hash -r
+
+#########
+# OTHER #
+#########
+
+# TODO: slack
+
+# LaTeX (basix tex)
+# http://www.tug.org/mactex/morepackages.html
+# http://tug.org/cgi-bin/mactex-download/BasicTeX.pkg
+
+# sudo tlmgr update --self
+# sudo tlmgr install latexmk biblatex logreq xstring biber

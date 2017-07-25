@@ -11,6 +11,9 @@ git config --global credential.helper osxkeychain
 
 git lfs install
 
+git config --global user.name "Will Pearson"
+git config --global user.email will@mcneel.com
+
 git config --global core.precomposeunicode true
 
 git config --global pager.log "diff-highlight | less"

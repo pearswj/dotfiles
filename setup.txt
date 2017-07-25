@@ -25,6 +25,8 @@ git config --global core.excludesfile '~/.gitignore_global'
 
 git config --global hub.protocol https
 
+git config --global alias.dog "log --all --decorate --oneline --graph"
+
 #######
 # DEV #
 #######

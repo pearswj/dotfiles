@@ -31,6 +31,17 @@ git config --global alias.dog "log --all --decorate --oneline --graph"
 # DEV #
 #######
 
+# bash
+brew install bash
+sudo vim /etc/shells
+# /usr/local/bin/bash
+chsh -s /usr/local/bin/bash
+
+# atom one dark theme
+# https://raw.githubusercontent.com/nathanbuchar/atom-one-dark-terminal/master/scheme/terminal/One%20Dark.terminal
+
+# disable "Use Option as Meta key"
+
 # ngrok
 brew cask install ngrok
 

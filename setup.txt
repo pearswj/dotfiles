@@ -65,6 +65,10 @@ gem install travis
 # heroku
 brew install heroku
 
+# docker
+brew cask install docker
+# run once to install cli
+
 ############
 # MONO MDK #
 ############

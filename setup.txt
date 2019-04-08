@@ -40,6 +40,9 @@ sudo vim /etc/shells
 # /usr/local/bin/bash
 chsh -s /usr/local/bin/bash
 
+# completion
+brew install bash-completion@2
+
 # atom one dark theme
 # https://raw.githubusercontent.com/nathanbuchar/atom-one-dark-terminal/master/scheme/terminal/One%20Dark.terminal
 

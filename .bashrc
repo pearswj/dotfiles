@@ -39,3 +39,6 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 # msbuild
 
 alias msbuild="msbuild /clp:disableconsolecolor"
+
+# rbenv
+eval "$(rbenv init -)"

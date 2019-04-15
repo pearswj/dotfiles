@@ -72,6 +72,13 @@ brew install heroku
 brew cask install docker
 # run once to install cli
 
+# ruby
+brew install rbenv
+eval "$(rbenv init -)"
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+rbenv install 2.5.3
+rbenv global 2.5.3
+
 ############
 # MONO MDK #
 ############
